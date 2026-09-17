@@ -5,21 +5,21 @@ services:
  runtime: docker
  envVars:
  - key: API_ID
- sync: false
+   sync: false
  - key: API_HASH
- sync: false
+   sync: false
  - key: BOT_TOKEN
- sync: false
+   sync: false
  - key: BOT_USERNAME
- sync: false
+   sync: false
  - key: DB_CHANNEL
- sync: false
+   sync: false
  - key: BOT_OWNER
- sync: false
+   sync: false
  - key: DATABASE_URL
- sync: false
+   sync: false
  - key: UPDATES_CHANNEL
- sync: false
+   sync: false
  - key: LOG_CHANNEL
- sync: false
+   sync: false
 
