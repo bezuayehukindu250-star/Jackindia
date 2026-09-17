@@ -1,3 +1,25 @@
-build:
-  docker:
-    worker: Dockerfile
+
+services:
+ - type: web
+ name: vj-file-store-bot
+ runtime: docker
+ envVars:
+ - key: API_ID
+ sync: false
+ - key: API_HASH
+ sync: false
+ - key: BOT_TOKEN
+ sync: false
+ - key: BOT_USERNAME
+ sync: false
+ - key: DB_CHANNEL
+ sync: false
+ - key: BOT_OWNER
+ sync: false
+ - key: DATABASE_URL
+ sync: false
+ - key: UPDATES_CHANNEL
+ sync: false
+ - key: LOG_CHANNEL
+ sync: false
+
